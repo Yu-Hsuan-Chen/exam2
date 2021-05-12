@@ -1,16 +1,16 @@
 #include "gesture_prediction.h"
 
-#define label_num 2
+#define label_num 3
 struct Config {
 
   // This must be the same as seq_length in the src/model_train/config.py
   const int seq_length = 64;
 
   // The number of expected consecutive inferences for each gesture type.
-  const int consecutiveInferenceThresholds[label_num] = {20, 10};
+  const int consecutiveInferenceThresholds[label_num] = {10, 10, 10};
 
   const char* output_message[label_num] = {
-        "UP", "Down"};
+        "UP", "Z", "Circle"};
 };
 
 Config config;
@@ -98,12 +98,12 @@ void detect(int* angle, bool* flag) {
     // Produce an output
     if (gesture_index < label_num) {
       error_reporter->Report(config.output_message[gesture_index]);
-      if(gesture_index == 0)
-        idx = (idx+1)%5;
-      else if(gesture_index == 1)
-        idx = (idx+4)%5;
-      (*angle) = angles[idx];
-      printf("Now Angle: %d\n", *angle);
+      // if(gesture_index == 0)
+      //   idx = (idx+1)%5;
+      // else if(gesture_index == 1)
+      //   idx = (idx+4)%5;
+      // (*angle) = angles[idx];
+      // printf("Now Angle: %d\n", *angle);
     }        
   }
 }

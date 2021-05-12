@@ -257,6 +257,7 @@ int main() {
         printf("%s\r\n", outbuf);
    }
    mqtt_send_thread.join();
+   mqtt_thread.join();
    uLCD_thread.join();
 }
 
