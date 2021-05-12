@@ -329,7 +329,17 @@ BUILD/B_L4S5I_IOT01A/GCC_ARM/main.o: main.cpp \
  mbed_rpc/mbed_rpc/Arguments.h \
  /home/ee2405/ee2405/mbed-os/connectivity/mbedtls/include/mbedtls/platform.h \
  mbed_rpc/mbed_rpc/RPCVariable.h mbed_rpc/mbed_rpc/RPCFunction.h \
- mbed_rpc/mbed_rpc/RpcClasses.h src/model_deploy/gesture_prediction.h \
+ mbed_rpc/mbed_rpc/RpcClasses.h wifi_mqtt/MQTTNetwork.h \
+ /home/ee2405/ee2405/mbed-os/connectivity/netsocket/include/netsocket/NetworkInterface.h \
+ wifi_mqtt/MQTT/MQTTmbed.h wifi_mqtt/MQTT/MQTTClient.h \
+ wifi_mqtt/MQTT/FP/FP.h wifi_mqtt/MQTT/MQTTPacket/MQTTPacket.h \
+ wifi_mqtt/MQTT/MQTTPacket/MQTTConnect.h \
+ wifi_mqtt/MQTT/MQTTPacket/MQTTPublish.h \
+ wifi_mqtt/MQTT/MQTTPacket/MQTTSubscribe.h \
+ wifi_mqtt/MQTT/MQTTPacket/MQTTUnsubscribe.h \
+ wifi_mqtt/MQTT/MQTTPacket/MQTTFormat.h \
+ wifi_mqtt/MQTT/MQTTPacket/StackTrace.h \
+ wifi_mqtt/MQTT/MQTTPacket/MQTTPacket.h wifi_mqtt/MQTT/MQTTLogging.h \
  src/model_deploy/accelerometer_handler.h \
  src/model_deploy/tensorflowlite_mbed/tensorflow/lite/c/common.h \
  src/model_deploy/tensorflowlite_mbed/tensorflow/lite/micro/micro_error_reporter.h \
@@ -360,15 +370,4 @@ BUILD/B_L4S5I_IOT01A/GCC_ARM/main.o: main.cpp \
  src/model_deploy/tensorflowlite_mbed/tensorflow/lite/type_to_tflitetype.h \
  src/model_deploy/tensorflowlite_mbed/tensorflow/lite/micro/micro_mutable_op_resolver.h \
  src/model_deploy/tensorflowlite_mbed/tensorflow/lite/version.h \
- src/model_deploy/tensorflowlite_mbed/tensorflow/core/public/version.h \
- wifi_mqtt/MQTTNetwork.h \
- /home/ee2405/ee2405/mbed-os/connectivity/netsocket/include/netsocket/NetworkInterface.h \
- wifi_mqtt/MQTT/MQTTmbed.h wifi_mqtt/MQTT/MQTTClient.h \
- wifi_mqtt/MQTT/FP/FP.h wifi_mqtt/MQTT/MQTTPacket/MQTTPacket.h \
- wifi_mqtt/MQTT/MQTTPacket/MQTTConnect.h \
- wifi_mqtt/MQTT/MQTTPacket/MQTTPublish.h \
- wifi_mqtt/MQTT/MQTTPacket/MQTTSubscribe.h \
- wifi_mqtt/MQTT/MQTTPacket/MQTTUnsubscribe.h \
- wifi_mqtt/MQTT/MQTTPacket/MQTTFormat.h \
- wifi_mqtt/MQTT/MQTTPacket/StackTrace.h \
- wifi_mqtt/MQTT/MQTTPacket/MQTTPacket.h wifi_mqtt/MQTT/MQTTLogging.h
+ src/model_deploy/tensorflowlite_mbed/tensorflow/core/public/version.h

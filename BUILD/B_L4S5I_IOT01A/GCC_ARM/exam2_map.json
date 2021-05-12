@@ -1,19 +1,8 @@
 [
     {
-        "module": "4dgl-ulcd-se/uLCD_4DGL_Media.o",
-        "size": {
-            ".text": 74,
-            ".data": 0,
-            ".bss": 0,
-            ".text-delta": 0,
-            ".data-delta": 0,
-            ".bss-delta": 0
-        }
-    },
-    {
         "module": "4dgl-ulcd-se/uLCD_4DGL_Text.o",
         "size": {
-            ".text": 528,
+            ".text": 338,
             ".data": 0,
             ".bss": 0,
             ".text-delta": 0,
@@ -35,9 +24,9 @@
     {
         "module": "[fill]",
         "size": {
-            ".text": 222,
-            ".data": 12,
-            ".bss": 48,
+            ".text": 294,
+            ".data": 17,
+            ".bss": 57,
             ".text-delta": 0,
             ".data-delta": 0,
             ".bss-delta": 0
@@ -46,7 +35,7 @@
     {
         "module": "[lib]/c.a",
         "size": {
-            ".text": 42704,
+            ".text": 52564,
             ".data": 2474,
             ".bss": 89,
             ".text-delta": 0,
@@ -68,7 +57,7 @@
     {
         "module": "[lib]/m.a",
         "size": {
-            ".text": 4496,
+            ".text": 4504,
             ".data": 1,
             ".bss": 0,
             ".text-delta": 0,
@@ -112,9 +101,9 @@
     {
         "module": "main.o",
         "size": {
-            ".text": 3816,
-            ".data": 8,
-            ".bss": 2973,
+            ".text": 5582,
+            ".data": 44,
+            ".bss": 64895,
             ".text-delta": 0,
             ".data-delta": 0,
             ".bss-delta": 0
@@ -123,7 +112,7 @@
     {
         "module": "mbed-os/cmsis",
         "size": {
-            ".text": 8868,
+            ".text": 9262,
             ".data": 168,
             ".bss": 6212,
             ".text-delta": 0,
@@ -134,9 +123,9 @@
     {
         "module": "mbed-os/connectivity",
         "size": {
-            ".text": 212,
-            ".data": 0,
-            ".bss": 40,
+            ".text": 10924,
+            ".data": 99,
+            ".bss": 181,
             ".text-delta": 0,
             ".data-delta": 0,
             ".bss-delta": 0
@@ -145,9 +134,9 @@
     {
         "module": "mbed-os/drivers",
         "size": {
-            ".text": 3572,
+            ".text": 4626,
             ".data": 0,
-            ".bss": 0,
+            ".bss": 928,
             ".text-delta": 0,
             ".data-delta": 0,
             ".bss-delta": 0
@@ -156,9 +145,9 @@
     {
         "module": "mbed-os/events",
         "size": {
-            ".text": 364,
+            ".text": 1520,
             ".data": 0,
-            ".bss": 0,
+            ".bss": 3104,
             ".text-delta": 0,
             ".data-delta": 0,
             ".bss-delta": 0
@@ -178,7 +167,7 @@
     {
         "module": "mbed-os/platform",
         "size": {
-            ".text": 5928,
+            ".text": 5918,
             ".data": 260,
             ".bss": 516,
             ".text-delta": 0,
@@ -189,7 +178,7 @@
     {
         "module": "mbed-os/rtos",
         "size": {
-            ".text": 1114,
+            ".text": 1322,
             ".data": 0,
             ".bss": 8,
             ".text-delta": 0,
@@ -211,9 +200,20 @@
     {
         "module": "mbed-os/targets",
         "size": {
-            ".text": 16202,
+            ".text": 20108,
             ".data": 8,
             ".bss": 1664,
+            ".text-delta": 0,
+            ".data-delta": 0,
+            ".bss-delta": 0
+        }
+    },
+    {
+        "module": "mbed-os/wifi-ism43362",
+        "size": {
+            ".text": 9606,
+            ".data": 0,
+            ".bss": 1314,
             ".text-delta": 0,
             ".data-delta": 0,
             ".bss-delta": 0
@@ -233,9 +233,9 @@
     {
         "module": "src/model_deploy",
         "size": {
-            ".text": 25596,
-            ".data": 289,
-            ".bss": 64456,
+            ".text": 24518,
+            ".data": 253,
+            ".bss": 2630,
             ".text-delta": 0,
             ".data-delta": 0,
             ".bss-delta": 0
@@ -244,7 +244,7 @@
     {
         "module": "wifi_mqtt/MQTT",
         "size": {
-            ".text": 1054,
+            ".text": 1832,
             ".data": 0,
             ".bss": 4,
             ".text-delta": 0,
@@ -254,9 +254,9 @@
     },
     {
         "summary": {
-            "static_ram": 79424,
+            "static_ram": 85120,
             "static_ram_delta": 0,
-            "total_flash": 124936,
+            "total_flash": 163208,
             "total_flash_delta": 0
         }
     }
